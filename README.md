@@ -1,7 +1,3 @@
-Perfect 👌 Thanks for sharing the repo link. Since this is **InvestmentReady** (your migrated project from *auricite-startup-scorer*), I’ll draft you a **professional README.md** that you can drop directly into your repo.
-
-Here’s a first version:
-
 ---
 
 # InvestmentReady
