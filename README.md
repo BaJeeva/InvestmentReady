@@ -95,14 +95,3 @@ Contributions are welcome! Please fork the repo and submit a pull request.
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
 ---
-
-## 👤 Author
-
-**Jeevanantham Balakrishnan (Jeeva)**
-
-* 🌐 [LinkedIn](https://www.linkedin.com/in/jeevabalakrishnan/)
-* 💼 Founder @ BAJEEVA
-* 📧 [bajeeva.com (mailto:jeeva@bajeeva.com)
-
----
-
