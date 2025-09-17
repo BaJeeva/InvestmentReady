@@ -1,74 +1,111 @@
-# Welcome to your Lovable project
+Perfect 👌 Thanks for sharing the repo link. Since this is **InvestmentReady** (your migrated project from *auricite-startup-scorer*), I’ll draft you a **professional README.md** that you can drop directly into your repo.
 
-## Project info
+Here’s a first version:
 
-**URL**: https://lovable.dev/projects/efd6bd08-9d06-4c1b-921a-ae6a5d7dea14
+---
 
-## How can I edit this code?
+# InvestmentReady
 
-There are several ways of editing your application.
+**InvestmentReady** is an AI-powered platform designed to evaluate startups and businesses for investment readiness. It analyzes key financial, operational, and strategic metrics to generate actionable insights, helping founders, investors, and analysts make data-driven decisions.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/efd6bd08-9d06-4c1b-921a-ae6a5d7dea14) and start prompting.
+## 🚀 Features
 
-Changes made via Lovable will be committed automatically to this repo.
+* **Startup Scoring Model** – ML-driven evaluation of financial, market, and operational readiness.
+* **Segmented Analysis** – Risk profiling and categorization of companies.
+* **Custom Rules Engine** – Business rules layered on top of machine learning outputs.
+* **Interactive Dashboard** – Visual insights for investors and startup founders.
+* **Modular Architecture** – Easily extendable for future features.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+* **Language:** Python 3.10+
+* **Data Processing:** Pandas, NumPy
+* **Machine Learning:** Scikit-learn
+* **Visualization:** Matplotlib, Seaborn, Streamlit (dashboard)
+* **Environment:** Docker & Codespaces ready
+* **Version Control:** Git + GitHub
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 📂 Project Structure
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+InvestmentReady/
+│── src/                # Core source code
+│   ├── data/           # Data loading & preprocessing
+│   ├── model_training/ # ML training & evaluation
+│   ├── utils/          # Helper functions & configs
+│── notebooks/          # Jupyter notebooks for experiments
+│── dashboard/          # Streamlit dashboard for visualization
+│── requirements.txt    # Python dependencies
+│── README.md           # Project documentation
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## ⚡ Getting Started
 
-**Use GitHub Codespaces**
+### 1. Clone the Repository
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+git clone git@github.com:BaJeeva/InvestmentReady.git
+cd InvestmentReady
+```
 
-## What technologies are used for this project?
+### 2. Create & Activate Virtual Environment
 
-This project is built with:
+```bash
+python -m venv venv
+source venv/bin/activate   # On Linux/Mac
+venv\Scripts\activate      # On Windows
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### 3. Install Dependencies
 
-## How can I deploy this project?
+```bash
+pip install -r requirements.txt
+```
 
-Simply open [Lovable](https://lovable.dev/projects/efd6bd08-9d06-4c1b-921a-ae6a5d7dea14) and click on Share -> Publish.
+### 4. Run Streamlit Dashboard
 
-## Can I connect a custom domain to my Lovable project?
+```bash
+streamlit run dashboard/app.py
+```
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## ✅ Roadmap
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
-"# InvestmentReady"  
+* [ ] Add more financial metrics for scoring
+* [ ] Enhance dashboard with comparison charts
+* [ ] Deploy as SaaS with authentication & role-based access
+* [ ] Integrate cloud storage & CI/CD
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please fork the repo and submit a pull request.
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 👤 Author
+
+**Jeevanantham Balakrishnan (Jeeva)**
+
+* 🌐 [LinkedIn](https://www.linkedin.com/in/jeevabalakrishnan/)
+* 💼 Founder @ BAJEEVA
+* 📧 [bajeeva.com (mailto:jeeva@bajeeva.com)
+
+---
+
